@@ -32,7 +32,7 @@
     justify-content: center;
     align-items: center;
 }
-.header__nav-log{
+.header__nav-log {
     color: red;
     font-size: 20px;
     font-weight: 900;
@@ -104,4 +104,32 @@
 }
 .shortiy__item{
     width: 350px;
+}
+.footer{
+    padding: 46px 0 52px 0;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1120px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer__list-title{
+    font-size: 20px;
+    font-weight:  700;
+    text-align: center;
+    margin-bottom: 21px;
+}
+.footer__list-title span{
+    color: red;
+}
+.footer__list-link{
+    color: #818181;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer__list-link:hover{
+    color: red;
 }
